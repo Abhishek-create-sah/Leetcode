@@ -1,0 +1,29 @@
+class Solution {
+    private boolean pall(String s , int st , int e ){
+       while(st <= e){
+        if(s.charAt(st) != s.charAt(e)) return false;
+        st++ ; e-- ;
+       }
+       return true;
+    }
+
+    private void help(String s , int idx , List<List<String>> res , List<String> cur){
+        if(idx == s.length()){
+            res.add(new ArrayList<>(cur));
+            return ;
+        }
+
+        for(int i = idx ; i < s.length() ;i++){
+            if(pall(s, idx , i)){
+                cur.add(s.substring(idx,i+1));
+                help(s, i+1 , res , cur);
+                cur.remove(cur.size()-1);
+            }
+        }
+    }
+  public List<List<String>> partition(String s) {
+        List<List<String>> res = new ArrayList<>();
+        help(s,0,res,new ArrayList<>());
+        return res ;
+    }
+}
