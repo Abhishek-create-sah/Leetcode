@@ -1,0 +1,20 @@
+class Solution {
+    private void help(int[] cand, int tar, int st ,List<List<Integer>> res, List<Integer> cur){
+        if(tar == 0){
+            res.add(new ArrayList<>(cur));
+        }
+        for(int i = st ; i < cand.length ; i++){
+            if (i > st && cand[i] == cand[i - 1]) continue;
+            if(cand[i] <= tar){ cur.add(cand[i]);
+            help(cand, tar-cand[i],i+1,res,cur);
+            cur.remove(cur.size()-1);
+            }
+        }
+    }
+    public List<List<Integer>> combinationSum2(int[] cand, int tar) {
+        Arrays.sort(cand);
+        List<List<Integer>> res = new ArrayList<>();
+        help(cand, tar , 0 , res , new ArrayList<>());
+        return res ;
+    }
+}
