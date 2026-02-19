@@ -1,0 +1,59 @@
+class Solution {
+    private List<String> buildBoard(char[][] board){
+        List<String> res = new ArrayList<>();
+        for(char[] row : board){
+            res.add(new String(row));
+        }
+        return res ;
+    }
+
+    private void solve(int row , char[][] board,List<List<String>> ans, boolean[] colUsed , boolean[] d1 , boolean[] d2 , int n ){
+        if(row == n){
+            ans.add(buildBoard(board));
+            return;
+        }
+
+        for(int col = 0 ; col < n ; col++){
+            if(!colUsed[col] && !d1[row+col] && !d2[row-col+(n-1)]){
+                board[row][col] = 'Q';
+                colUsed[col] = true;
+                d1[row+col] = true ;
+                d2[row-col+(n-1)] = true ;
+
+                solve(row+1,board,ans,colUsed,d1,d2,n);
+
+                board[row][col] = '.';
+                colUsed[col] = false;
+                d1[row+col] = false ;
+                d2[row-col+(n-1)] = false ;
+
+            }
+        }
+    }
+    public List<List<String>> solveNQueens(int n) {
+        List<List<String>> ans = new ArrayList<>();
+        char[][] board = new char[n][n];
+
+        for(int i = 0 ; i < n ; i++){
+            for(int j = 0 ; j < n ; j++){
+                board[i][j] = '.';
+            }
+        }
+
+        boolean[] colUsed = new boolean[n];
+        boolean[] d1 = new boolean[2*n - 1];
+        boolean[] d2 = new boolean[2*n - 1];
+
+        solve(0,board,ans,colUsed,d1,d2,n) ;
+        return ans ;
+    }
+}
+
+// one more way 
+\
+  \
+    \
+-----
+    /
+  /
+/
