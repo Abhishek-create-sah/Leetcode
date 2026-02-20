@@ -21,14 +21,14 @@ Tip: Revisit problems after 1 day → 1 week → 1 month → etc.
 
 | #   | Problem Name                              | Difficulty | Revisions              | Patterns / Tags                  | Folder Link                                                                 |
 |-----|-------------------------------------------|------------|------------------------|----------------------------------|-----------------------------------------------------------------------------|
-| 37  | Sudoku Solver                             | Hard       | ☐ ☐ ☐ ☐ ☐             | Backtracking, Matrix             | [37. Sudoku Solver](./37.%20Sudoku%20Solver)                               |
-| 40  | Combination Sum II                        | Medium     | ☐ ☐ ☐ ☐ ☐             | Backtracking, Combinatorics      | [40. Combination Sum II](./40.%20Combination%20Sum%20II)                   |
-| 51  | N-Queens                                  | Hard       | ☐ ☐ ☐ ☐ ☐             | Backtracking, Recursion          | [51. N-Queens](./51.%20N-Queens)                                           |
-| 104 | Maximum Depth of Binary Tree              | Easy       | ☐ ☐ ☐ ☐ ☐             | Tree, DFS                        | [104. Maximum Depth of Binary Tree](./104.%20Maximum%20Depth%20of%20Binary%20Tree) |
-| 131 | Palindrome Partitioning                   | Medium     | ☐ ☐ ☐ ☐ ☐             | Backtracking, DP, String         | [131. Palindrome Partitioning](./131.%20Palindrome%20Partitioning)         |
-| 142 | Linked List Cycle II                      | Medium     | ☐ ☐ ☐ ☐ ☐             | Linked List, Floyd's Cycle       | [142. Linked List Cycle II](./142.%20Linked%20List%20Cycle%20II)           |
-| 206 | Reverse Linked List                       | Easy       | ☐ ☐ ☐ ☐ ☐             | Linked List, Two Pointers        | [206. Reverse Linked List](./206.%20Reverse%20Linked%20List)               |
-| 799 | Champagne Tower                           | Medium     | ☐ ☐ ☐ ☐ ☐             | Simulation, DP, Math             | [799. Champagne Tower](./799.%20Champagne%20Tower)                         |
+| 37  | Sudoku Solver                             | Hard       | ☑ ☐ ☐ ☐ ☐             | Backtracking, Matrix             | [37. Sudoku Solver](./37.%20Sudoku%20Solver)                               |
+| 40  | Combination Sum II                        | Medium     | ☑ ☐ ☐ ☐ ☐             | Backtracking, Combinatorics      | [40. Combination Sum II](./40.%20Combination%20Sum%20II)                   |
+| 51  | N-Queens                                  | Hard       | ☑ ☐ ☐ ☐ ☐             | Backtracking, Recursion          | [51. N-Queens](./51.%20N-Queens)                                           |
+| 104 | Maximum Depth of Binary Tree              | Easy       | ☑ ☐ ☐ ☐ ☐             | Tree, DFS                        | [104. Maximum Depth of Binary Tree](./104.%20Maximum%20Depth%20of%20Binary%20Tree) |
+| 131 | Palindrome Partitioning                   | Medium     | ☑ ☐ ☐ ☐ ☐             | Backtracking, DP, String         | [131. Palindrome Partitioning](./131.%20Palindrome%20Partitioning)         |
+| 142 | Linked List Cycle II                      | Medium     | ☑ ☐ ☐ ☐ ☐             | Linked List, Floyd's Cycle       | [142. Linked List Cycle II](./142.%20Linked%20List%20Cycle%20II)           |
+| 206 | Reverse Linked List                       | Easy       | ☑ ☐ ☐ ☐ ☐             | Linked List, Two Pointers        | [206. Reverse Linked List](./206.%20Reverse%20Linked%20List)               |
+| 799 | Champagne Tower                           | Medium     | ☑ ☐ ☐ ☐ ☐             | Simulation, DP, Math             | [799. Champagne Tower](./799.%20Champagne%20Tower)                         |
 
 ### Next Goals
 - Complete **Blind 75** / **NeetCode 150**  
