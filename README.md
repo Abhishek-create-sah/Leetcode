@@ -1,25 +1,31 @@
-# LeetCode Solutions & Revision Tracker
+## All Solved Problems (Revision Tracker)
 
-
-
-### All Solved Problems
-
-| #    | Problem Name                                                                 | Difficulty | Last Revised |
-|------|------------------------------------------------------------------------------|------------|--------------|
-| 37   | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                | Hard       |  22 .02.26  |
-| 40   | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)      | Medium     |  20 .02.26  |
-| 51   | [N-Queens](https://leetcode.com/problems/n-queens/)                          | Hard       |  21 .02.26    |
-| 90   | [Subsets II](https://leetcode.com/problems/subsets-ii/)                      | Medium     |  21 .02.26   |
-| 102  | [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal) | Medium       |  23 .02.26  |
-| 104  | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy       |              |
-| 128  | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium     |              |
-| 131  | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium     |   17 .02.26    |
-| 142  | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)  | Medium     |              |
-| 206  | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)    | Easy       |              |
-| 799  | [Champagne Tower](https://leetcode.com/problems/champagne-tower/)            | Medium     |              |
-| 912  | [Sort an Array (Merge Sort)](https://leetcode.com/problems/sort-an-array/)   | Medium     |   22 .02.26           |
-| 912  | [Sort an Array (Priority Queue)](https://leetcode.com/problems/sort-an-array/) | Medium     |    22 .02.26    |
-| 2596 | [Check Knight Tour Configuration](https://leetcode.com/problems/check-knight-tour-configuration/) | Medium     |  22 .02.26   |
-
-
-
+| #      | Problem Name                                      | Difficulty | Last Revised   |
+|--------|---------------------------------------------------|------------|----------------|
+| 37     | Sudoku Solver                                     | Hard       | 22.02.26       |
+| 40     | Combination Sum II                                | Medium     | 20.02.26       |
+| 51     | N-Queens                                          | Hard       | 21.02.26       |
+| 90     | Subsets II                                        | Medium     | 21.02.26       |
+| 101    | Symmetric Tree                                    | Easy       | —              |
+| 102    | Binary Tree Level Order Traversal                 | Medium     | 23.02.26       |
+| 104    | Maximum Depth of Binary Tree                      | Easy       | —              |
+| 128    | Longest Consecutive Sequence                      | Medium     | —              |
+| 131    | Palindrome Partitioning                           | Medium     | 17.02.26       |
+| 142    | Linked List Cycle II                              | Medium     | —              |
+| 206    | Reverse Linked List                               | Easy       | —              |
+| 543    | Diameter of Binary Tree                           | Easy       | —              |
+| 783    | Minimum Distance Between BST Nodes                | Easy       | —              |
+| 799    | Champagne Tower                                   | Medium     | —              |
+| 912    | Sort an Array (Merge Sort)                        | Medium     | 22.02.26       |
+| 912    | Sort an Array (Priority Queue)                    | Medium     | 22.02.26       |
+| 2596   | Check Knight Tour Configuration                   | Medium     | 22.02.26       |
+| Greedy | Best Time to Buy and Sell Stock                   | Easy       | 28.02.26       |
+| Greedy | Best Time to Buy and Sell Stock II                | Medium     | 28.02.26       |
+| Greedy | Non-overlapping Intervals                         | Medium     | 27.02.26       |
+| Greedy | Activity Selection                                | —          | 27.02.26       |
+| Greedy | Fractional Knapsack                               | —          | 27.02.26       |
+| Greedy | Fractional Knapsack (Class)                       | —          | 27.02.26       |
+| Greedy | Indian Coin Change                                | —          | 27.02.26       |
+| Greedy | Minimum Absolute Difference Pairs                 | —          | 27.02.26       |
+| Greedy | Maximum Length Chain of Pairs                     | —          | 27.02.26       |
+| Greedy | Choco Problem                                     | —          | 28.02.26       |
