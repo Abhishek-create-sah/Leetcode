@@ -19,9 +19,9 @@
 | 912    | Sort an Array (Merge Sort)                        | Medium     | 22.02.26       |
 | 912    | Sort an Array (Priority Queue)                    | Medium     | 22.02.26       |
 | 2596   | Check Knight Tour Configuration                   | Medium     | 22.02.26       |
-| Greedy | Best Time to Buy and Sell Stock                   | Easy       | 28.02.26       |
-| Greedy | Best Time to Buy and Sell Stock II                | Medium     | 28.02.26       |
-| Greedy | Non-overlapping Intervals                         | Medium     | 27.02.26       |
+| Greedy 121 | Best Time to Buy and Sell Stock                   | Easy       | 28.02.26       |
+| Greedy 122 | Best Time to Buy and Sell Stock II                | Medium     | 28.02.26       |
+| Greedy 435 | Non-overlapping Intervals                         | Medium     | 27.02.26       |
 | Greedy | Activity Selection                                | —          | 27.02.26       |
 | Greedy | Fractional Knapsack                               | —          | 27.02.26       |
 | Greedy | Fractional Knapsack (Class)                       | —          | 27.02.26       |
