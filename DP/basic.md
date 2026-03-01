@@ -3,11 +3,11 @@
   -optimal problem
 
 # Ways of dp
-Memoization(Top down)
+## Memoization(Top down)
   -Recursion
   -subproblem -> storage -> reuse
 
-Tabulation (Bottom UP) -> iterative , table/storage
+## Tabulation (Bottom UP) -> iterative , table/storage
   - Create table
   - Assign meaning to i and j
   - fill table in (smaller to larger) 
