@@ -6,8 +6,8 @@ Greedy algorithm is the problem solving technique where we make the locally opti
 3. No fixed rule 
 4. difficult to find where to apply (so solve mx question)
 
-##pros  
+## pros  
 simple and easy  , Good enough Time complex 
 
-##Cons 
+## Cons 
 A lot of time , global optimum is not achieved
