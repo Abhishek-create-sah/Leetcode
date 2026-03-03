@@ -1,0 +1,22 @@
+// Question merge arr who share same boundary
+
+class Solution {
+    public int[][] merge(int[][] intervals) {
+        Arrays.sort(intervals , (a,b) -> Integer.compare(a[0],b[0]));
+
+        ArrayList<int[]> res = new ArrayList<>();
+        int[] st = intervals[0];  // storing first
+        res.add(st);
+
+        for(int[] interval : intervals){
+            if(interval[0] <= st[1]){  // check cur end with prev st
+                st[1] = Math.max(st[1],interval[1]);  //taking mx end b/w two
+            }
+            else {
+                st = interval ;
+                res.add(st);
+            }
+        }
+       return res.toArray(new int[res.size()][]); 
+    }
+}
