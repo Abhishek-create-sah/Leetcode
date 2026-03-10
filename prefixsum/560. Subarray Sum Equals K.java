@@ -1,4 +1,4 @@
-//brute force for-loop 2 
+//brute force for-loop 2 one i = 0 ,sum = 0 j = i
 class Solution {
     public int subarraySum(int[] nums, int k) {
         int n = nums.length;
